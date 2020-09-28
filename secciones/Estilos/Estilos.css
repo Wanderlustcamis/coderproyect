@@ -434,10 +434,11 @@ table, th, td {
 
 
   }
+
   p.pa {
     display: grid;
     grid-area:pa;
-    width: 85%;
+    width: 45%;
     margin-right: 10px;
 
 
@@ -516,20 +517,10 @@ table, th, td {
 
   /* Contact*/
 
-      .contacto {
-    color:#6C7D47;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  .con {
+    margin:10px;
     padding: 2px;
-    margin: 5px;
-
-  }
-
-  .submit{
-    padding: 5px;
-    margin: 5px;
+    
   }
 
   /* Portfolio  */
