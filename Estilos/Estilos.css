@@ -192,6 +192,12 @@ table, th, td {
     display:flex;
 
   }
+  .container{
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+
+  }
 
   /* Botones */
 
@@ -233,7 +239,7 @@ table, th, td {
 /*   padding: 2em 0em; */
 }
 
-.container {
+.container1 {
   align-items: center;
   display:inline-grid;
   justify-content: center;
@@ -242,7 +248,6 @@ table, th, td {
   padding:  0px;
   margin: 0px;
   margin-right: 0px;
-  width: 240px;
 }
 
 .btn {
@@ -480,7 +485,7 @@ table, th, td {
     display: block;
   }
 
-  /* About */
+  /* About
 
 
   .aboutgrid{
@@ -494,23 +499,21 @@ table, th, td {
     "footer"
   }
 
-  .bio{
-    display:grid;
-    padding-left: 20px;
-    margin-left: 10px;
-    grid-template-rows: auto;
-    grid:auto;
-    grid-area:body;
-  }
-
   .mepic{
     align-content:flex-end;
-    width: 25%;
   }
   .header {
     grid-area: header;
   }
+*/
+.bio{
 
+  padding-left: 20px;
+  margin-left: 0px;
+  width: 400px;
+  height: 600px;
+
+}
   .favs {
     display:grid;
     grid-template-columns: auto auto;
