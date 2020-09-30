@@ -195,16 +195,6 @@ table, th, td {
 
   /* Botones */
 
-  .a1{
-    position: absolute;
-    right: 1px;
-  }
-  .a2{
-    font-size: 20px;
-    align-self: center;
-    right: 100px;
-  }
-
     .myButton {
     	background:linear-gradient(to bottom, #6C7D47 5%, #96A13A 100%);
     	background-color:#FBFFF1;
@@ -361,14 +351,12 @@ table, th, td {
   .greedindex{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: 10px;
     grid-template-areas:
     "header header header"
     "body body body"
     "footer footer footer"
-    "smedia smedia smedia"
-
   }
 
   .header{
@@ -392,11 +380,7 @@ table, th, td {
     grid-area:body;
 
   }
-  .smedia{
-    display: grid;
-    grid-area: smedia;
-    align-content:flex-end;
-  }
+
   .mainmenu{
     display: grid;
     grid-area: footer;
@@ -423,31 +407,14 @@ table, th, td {
     display:grid;
     padding-left: 20px;
     margin-left: 10px;
-    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     grid:auto;
     grid-area:body;
-    flex-direction: row-reverse;
-    grid-gap:5px;
-    grid-template-areas:
-    "pa me"
-
-
   }
-  p.pa {
-    display: grid;
-    grid-area:pa;
-    width: 85%;
-    margin-right: 10px;
 
-
-  }
-    .me {
-      display: grid;
-      grid-area: me;
-      margin-left: 10px;
-      padding:20px;
-
+  .mepic{
+    align-content:flex-end;
+    width: 25%;
   }
   .header {
     grid-area: header;
@@ -519,7 +486,7 @@ table, th, td {
   .con {
     margin:10px;
     padding: 2px;
-    
+
   }
 
   /* Portfolio  */
@@ -641,19 +608,19 @@ table, th, td {
 
 /* Media Query */
 
-@media screen and (max-with: 320px) {
+@media screen and (max-with: 320px;) {
 
   .greedindex{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin:10px;
     grid-template-areas:
     "header"
     "body"
     "mainmenu"
-    "smedia"
   }
+
     .mainmenu{
       display: none;
 
@@ -671,23 +638,7 @@ table, th, td {
       grid-area:body;
 
   }
-    .smedia{
-      display: grid;
-      grid-area: smedia;
-      grid-gap: 10px;
-  }
 
-    ul.smedia{
-      margin-left:0px;
-      padding-left: 0px;
-      margin-top: 1fr;
-      font-size: 12px;
-
-}
-
-  li.smedia{
-    font-size: 15px;
-  }
   .navbar-collapse{
     display: flex;
     flex-direction: column;
