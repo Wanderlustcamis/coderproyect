@@ -8,7 +8,7 @@ aqua #96CCD9
 
 Ivory #FBFFF1
 Citron #96A13A
-Fern Green #2499A6
+Fern Green #6C7D47
 Ebony #575C55
  */
 
@@ -591,6 +591,79 @@ table, th, td {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  @import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    background-color:#FBFFF1;
+    width:320px;
+    border:1px solid #6C7D47;
+    margin:50px;
+}
+.titleBox {
+    background-color:#FBFFF1;
+    padding:10px;
+}
+.titleBox label{
+  color:#96A13A;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    background-color:#FBFFF1;
+    padding:10px;
+    border-top:1px dotted #6C7D47;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    background-color:#FBFFF1;
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+
+    margin:0;
+}
+.sub-text {
+    color:#96A13A;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #6C7D47;
+    padding:10px;
+}
 
   /* Contact*/
 
