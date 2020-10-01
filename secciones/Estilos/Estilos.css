@@ -372,30 +372,6 @@ table, th, td {
     font-size: 15px;
   }
 
-  .fa-facebook {
-    color: #3b5998;
-    text-decoration: none;
-    align-items: center;
-  }
-
-  .fa-twitter {
-    color: #00acee;
-    text-decoration: none;
-    align-items: center;
-  }
-
-  .fa-linkedin {
-    color: #007bb6;
-    text-decoration: none;
-    align-items: center;
-  }
-
-  .fa-instagram {
-    color: #8a3ab9;
-    text-decoration: none;
-    align-items: center;
-  }
-
   /* Classes usadas varias veces*/
 
   .medio {
