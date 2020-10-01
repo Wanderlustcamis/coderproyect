@@ -543,31 +543,6 @@ table, th, td {
 
   /* ClientCommets */
 
-  .ccup {
-    position: sticky;
-    top:40px;
-    bottom: 20px;
-    left: 20px;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-
-  }
-  .comm1 {
-    table-layout: fixed;
-    align-self: center;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    display:flex;
-    justify-content:center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
   @import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
 
 .detailBox {
@@ -579,6 +554,7 @@ table, th, td {
 .titleBox {
     background-color:#FBFFF1;
     padding:10px;
+    text-align: center;
 }
 .titleBox label{
   color:#96A13A;
@@ -601,7 +577,8 @@ table, th, td {
     width:100%;
 }
 .taskDescription {
-    margin-top:10px 0;
+    margin-top:5px 0;
+    margin-bottom: 1px;
 }
 .commentList {
     background-color:#FBFFF1;
