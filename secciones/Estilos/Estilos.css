@@ -28,7 +28,7 @@ Ebony #575C55
 
 /* Selectors */
 
-head{
+head {
   font-family: 'Titillium Web', sans-serif;
   align-items: center;
   padding-bottom: 2px;
@@ -285,6 +285,7 @@ table, th, td {
 }
 
 /*btn_text*/
+
 .effect01 span {
   transition: all 0.2s ease-out;
   z-index: 2;
@@ -295,6 +296,7 @@ table, th, td {
 }
 
 /*highlight*/
+
 .effect01:after {
   background: #FBFFF1;
   border: 0px solid #96A13A;
@@ -464,18 +466,20 @@ table, th, td {
   /* About*/
 
 
-  .aboutgrid{
+  .aboutgrid {
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "header"
-    "body"
+    "bio1"
     "favs"
     "footer"
-  }
-  }
-  .header {
+    }
+
+  header {
     grid-area: header;
+    margin:10px;
+    padding:2px;
   }
 
 
@@ -809,7 +813,12 @@ table, th, td {
     "footer"
   }
 
-  .bio{
+header{
+  margin:2px;
+  padding: 1px;
+  text-align: center;
+}
+  .bio1{
     display:grid;
     padding-left: 20px;
     margin-left: 10px;
@@ -822,9 +831,6 @@ table, th, td {
       margin-left: 10px;
       padding:10px;
 
-  }
-  .header {
-    grid-area: header;
   }
 
   .favs {
