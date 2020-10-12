@@ -482,12 +482,19 @@ table, th, td {
     padding:2px;
   }
 
+.bio{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 
+}
 .bio1{
 
   padding-left:10px;
-  height: auto;
+  margin-right: 0px;
+  padding-right: 0px;
   display: grid;
+  width: 800px;
   grid-area:bio;
   grid-template-areas:
   "bio pic"
@@ -497,7 +504,7 @@ table, th, td {
 .bio1 p{
   display: grid;
   grid-area: bio;
-  width: auto;
+  width: 490px;
   margin-top: 15px;
 }
   .pic {
@@ -505,7 +512,8 @@ table, th, td {
     margin:0px;
     display: grid;
     grid-area: pic;
-    height: auto;
+    height: 50%;
+    width: 300px;
 
 
 }
@@ -818,6 +826,14 @@ header{
   padding: 1px;
   text-align: center;
 }
+
+.bio{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+}
+
   .bio1{
     display:grid;
     padding-left: 20px;
@@ -944,35 +960,22 @@ header{
 
   }
 
-  .aboutgrid{
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    margin: 0px;
-    grid-template-areas:
-    "header"
-    "body"
-    "me"
-    "favs"
-    "footer"
-  }
 
   .bio{
-    display:grid;
-    padding-left: 20px;
-    margin-left: 10px;
-    grid-area:body;
+    margin:5px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
 
   }
     .me {
       display: grid;
-      grid-area: me;
       margin-left: 10px;
       padding:10px;
 
   }
-  .header {
-    grid-area: header;
-  }
+
 
   .favs {
     display:grid;
