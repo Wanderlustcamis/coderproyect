@@ -815,6 +815,10 @@ header{
   text-align: center;
 }
 
+article{
+  display: flex;
+  flex-direction: column;
+}
 
   .bio1{
     display: inline-flex;
@@ -946,7 +950,10 @@ header{
 
   }
 
-
+  article{
+    display: flex;
+    flex-direction: column;
+  }
 
   .bio1{
 
