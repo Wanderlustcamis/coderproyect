@@ -967,6 +967,7 @@ header{
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    grid-area: body;
 
 
   }
