@@ -490,7 +490,7 @@ table, th, td {
 }
 .bio1{
 
-  padding-left:10px;
+  padding-left:5px;
   margin-right: 0px;
   padding-right: 0px;
   display: grid;
@@ -508,7 +508,7 @@ table, th, td {
   margin-top: 15px;
 }
   .pic {
-    padding:10px;
+    padding:2px;
     margin:0px;
     display: grid;
     grid-area: pic;
@@ -809,44 +809,28 @@ table, th, td {
 
   }
 
-  .aboutgrid{
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    margin: 0px;
-    grid-template-areas:
-    "header"
-    "body"
-    "me"
-    "favs"
-    "footer"
-  }
-
 header{
   margin:2px;
   padding: 1px;
   text-align: center;
 }
 
-.bio{
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  grid-area: body;
-
-}
 
   .bio1{
-    display:grid;
-    padding-left: 20px;
-    margin-left: 10px;
-    grid-area:body;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 2px;
+    margin-left: 1px;
+
 
   }
     .me {
-      display: grid;
-      grid-area: me;
-      margin-left: 10px;
-      padding:10px;
+      display: inline-flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-left: 2px;
+      padding:2px;
 
   }
 
@@ -899,7 +883,7 @@ header{
     padding-bottom: 2px;
     box-sizing:border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin:5px 10px 5px 10px;
 
@@ -917,6 +901,7 @@ header{
 }
 
 @media screen and (max-with: 600px;) {
+
   .greedindex{
     display: grid;
     grid-template-columns: 1fr;
@@ -962,19 +947,21 @@ header{
   }
 
 
-  .bio{
+
+  .bio1{
+
     margin:5px;
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    grid-area: body;
-
 
   }
     .me {
-      display: grid;
-      margin-left: 10px;
-      padding:10px;
+      display: inline-flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-left: 2px;
+      padding:2px;
 
   }
 
