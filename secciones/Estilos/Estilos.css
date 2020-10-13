@@ -838,6 +838,12 @@ article{
 
   }
 
+  .pic{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
   .favs {
     display:grid;
     grid-template-columns: auto;
@@ -971,7 +977,11 @@ article{
       padding:2px;
 
   }
-
+  .pic{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 
   .favs {
     display:grid;
