@@ -99,6 +99,8 @@ h3.fav3{
   grid-area: fav3;
   display: flex;
   align-items:center;
+  margin-right: 5px;
+  margin-left: 40px;
 
 }
 
@@ -111,8 +113,8 @@ h4{
 h4.fav4{
   font-size: 24px;
   grid-area: fav4;
-  display: flex;
-  align-items:center;
+  text-align:center;
+  margin-left: 5px;
 }
 
 p{
