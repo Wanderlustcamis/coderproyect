@@ -825,7 +825,7 @@ article{
     flex-direction: column;
     flex-wrap: nowrap;
     padding-left: 2px;
-    margin-left: 1px;
+    margin-left: 50px;
 
 
   }
@@ -901,7 +901,7 @@ article{
   }
   .diome{
     padding: 5px;
-    margin:5px;
+    margin:10px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -964,14 +964,14 @@ article{
 
   .bio1{
 
-    margin:5px;
-    display: inline-flex;
+    margin:50px;
+    display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
   }
     .me {
-      display: inline-flex;
+      display:flex;
       flex-direction: column;
       flex-wrap: nowrap;
       margin-left: 2px;
@@ -1042,7 +1042,7 @@ article{
   }
   .diome{
     padding: 5px;
-    margin:5px;
+    margin:10px;
     display: flex;
     align-items: center;
     flex-direction: column;
