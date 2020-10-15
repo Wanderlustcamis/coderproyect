@@ -495,28 +495,20 @@ table, th, td {
   padding-left:5px;
   margin-right: 0px;
   padding-right: 0px;
-  display: grid;
   width: 800px;
-  grid-area:bio;
-  grid-template-areas:
-  "bio pic"
-
 
 }
 .bio1 p{
-  display: grid;
-  grid-area: bio;
   width: 490px;
   margin-top: 15px;
 }
-  .pic {
-    padding:2px;
-    margin:0px;
-    display: grid;
-    grid-area: pic;
-    height: 50%;
-    width: 300px;
+.aboutpic{
+  align-items: center;
+  margin:10px;
+}
+.pic {
 
+    align-items: center;
 
 }
   .favs {
