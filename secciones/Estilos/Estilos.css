@@ -418,11 +418,12 @@ table, th, td {
   }
 
   .mid{
-    padding: 10px;
-    margin-left:290px;
-    margin-right: 40px;
-    width: 60%;
+    margin:5px 100px 5px 300px;
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 60%;
+
 
   }
 .fa-arrow-alt-circle-left {
@@ -817,7 +818,10 @@ table, th, td {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    size:30px;
+    align-items: center;
   }
+
   a.nav-item{
     --fill-color: #575C55;
     padding: 0;
@@ -856,12 +860,12 @@ article{
       padding:2px;
 
   }
-  .mid{
-    padding: 10px;
-    margin-left:10px;
-    margin-right: 40px;
+    .mid {
+    margin:5px 10px 5px 0px;
+    display: flex;
+    align-items:flex-start;
+    flex-direction:column;
     width: 60%;
-    align-items: center;
 
   }
 
@@ -973,6 +977,8 @@ article{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    size:30px;
+    align-items: center;
   }
   a.nav-item{
     --fill-color: #575C55;
@@ -1006,14 +1012,15 @@ article{
 
   }
 
-  .mid{
-    padding: 10px;
-    margin-left:10px;
-    margin-right: 40px;
-    width: 60%;
-    align-items: center;
+    .mid {
+      margin:5px 10px 5px 0px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 60%;
 
   }
+
   .pic{
     display: flex;
     flex-direction: column;

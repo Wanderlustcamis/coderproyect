@@ -418,7 +418,7 @@ table, th, td {
   }
 
   .mid{
-    margin:5px 100px 5px 300px;
+    margin:5px 300px 5px 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -861,11 +861,8 @@ article{
 
   }
   .mid{
-    margin:5px 10px 5px 0px;
-    display: flex;
-    align-items:flex-start;
-    flex-direction:column;
-    width: 60%;
+
+    align-items: center;
 
   }
 
@@ -1013,14 +1010,10 @@ article{
   }
 
   .mid{
-    margin:5px 10px 5px 0px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 60%;
+
+    align-items: center;
 
   }
-
   .pic{
     display: flex;
     flex-direction: column;
