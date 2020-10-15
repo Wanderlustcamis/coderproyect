@@ -203,6 +203,10 @@ table, th, td {
 
   /* Botones */
 
+    a:hover{
+      color: #575C55;
+    }
+
     .myButton {
     	background:linear-gradient(to bottom, #6C7D47 5%, #96A13A 100%);
     	background-color:#FBFFF1;
@@ -360,6 +364,15 @@ table, th, td {
       width: 20px;
       background: #FBFFF1;
     }
+
+    .fa-envelope{
+      color: #575C55;
+    }
+
+    .fa-envelope: hover {
+      color: #575C55;
+    }
+    /*listas*/
 
     ul.smedia{
     margin-left:40px;
