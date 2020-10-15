@@ -418,9 +418,8 @@ table, th, td {
   }
 
   .mid{
-    margin:5px 100px 5px 300px;
     display: flex;
-    align-items: center;
+    align-content: center;
     flex-direction: column;
     width: 60%;
 
@@ -860,8 +859,7 @@ article{
       padding:2px;
 
   }
-  .mid{
-    margin:5px 10px 5px 0px;
+    .mid {
     display: flex;
     align-items:flex-start;
     flex-direction:column;
@@ -1012,12 +1010,12 @@ article{
 
   }
 
-  .mid{
-    margin:5px 10px 5px 0px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 60%;
+    .mid {
+
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 60%;
 
   }
 
