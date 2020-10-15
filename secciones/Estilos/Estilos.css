@@ -417,6 +417,14 @@ table, th, td {
 
   }
 
+  .mid{
+    padding: 10px;
+    margin-left:290px;
+    margin-right: 40px;
+    width: 60%;
+    align-items: center;
+
+  }
 .fa-arrow-alt-circle-left {
   font-size: 32px;
 }
@@ -517,6 +525,7 @@ table, th, td {
 .bio1 p{
   width: 490px;
   margin-top: 15px;
+  margin-left: 10px;
 }
 .aboutpic{
   align-items: center;
@@ -847,6 +856,14 @@ article{
       padding:2px;
 
   }
+  .mid{
+    padding: 10px;
+    margin-left:10px;
+    margin-right: 40px;
+    width: 60%;
+    align-items: center;
+
+  }
 
   .pic{
     display: flex;
@@ -986,6 +1003,15 @@ article{
       flex-wrap: nowrap;
       margin-left: 2px;
       padding:2px;
+
+  }
+
+  .mid{
+    padding: 10px;
+    margin-left:10px;
+    margin-right: 40px;
+    width: 60%;
+    align-items: center;
 
   }
   .pic{
