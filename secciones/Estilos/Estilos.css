@@ -404,6 +404,9 @@ table, th, td {
 
   }
 
+.fa-arrow-alt-circle-left {
+  font-size: 32px;
+}
   /* Animaciones
 
 @keyframes TITULO {

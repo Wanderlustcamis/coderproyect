@@ -404,6 +404,9 @@ table, th, td {
 
   }
 
+.fa-arrow-alt-circle-left {
+  font-size: 32px;
+}
   /* Animaciones
 
 @keyframes TITULO {
@@ -503,9 +506,8 @@ table, th, td {
   margin-top: 15px;
 }
 .aboutpic{
-  width: auto;
-  height: 100px;
-  margin: 5px;
+  align-items: center;
+  margin:10px;
 }
 .pic {
 
