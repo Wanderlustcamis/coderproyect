@@ -1,1 +1,1 @@
-var instagram = "VISIT MY IG";
+var nombre = prompt ("VISIT MY IG");
