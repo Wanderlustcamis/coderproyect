@@ -45,17 +45,8 @@ font-family: 'Titillium Web', sans-serif;
 h1{
   color:#575C55;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 40px;
-
-}
-
-h1.h11{
-  margin: 10px;
-  padding: 10px;
-  height: 100px;
-  padding-left:210px;
-  align-items: center;
+  margin: 0px;
+  padding: 0px;
   grid-area: header;
   --fill-color: #575C55;
   display: block;
@@ -66,11 +57,13 @@ h1.h11{
   color: transparent;
   background-clip: text;
   transition: 0.5s linear;
-  height:50px;
 }
+
 
 h1.ab{
   grid-area: header;
+  margin: 0px;
+  padding: 0px;
 
 }
 
@@ -499,10 +492,12 @@ table, th, td {
   .menu{
     display: grid;
     grid-area: menu;
+    margin-top: 20px;
   }
   .car{
     display: grid;
     grid-area: body;
+    margin-left: 10px;
   }
 
   /* About*/
