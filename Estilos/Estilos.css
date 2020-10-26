@@ -461,6 +461,7 @@ table, th, td {
     margin: 10px;
     grid-template-areas:
     "header header header"
+    "menu menu menu"
     "body body body"
     "footer footer footer"
   }
@@ -493,6 +494,15 @@ table, th, td {
   }
   .down{
     display: block;
+  }
+
+  .menu{
+    display: grid;
+    grid-area: menu;
+  }
+  .car{
+    display: grid;
+    grid-area: body;
   }
 
   /* About*/
