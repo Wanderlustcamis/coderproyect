@@ -398,6 +398,21 @@ table, th, td {
 
 
   }
+  .almedio{
+    table-layout: fixed;
+    align-items: center;
+    text-align: center;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:5px 10px 5px 10px;
+  }
+
   .diome{
     padding: 5px;
     margin:5px;
@@ -526,19 +541,10 @@ table, th, td {
 
 }
 .bio1 p{
-  width: 490px;
   margin-top: 15px;
   margin-left: 10px;
 }
-.aboutpic{
-  align-items: center;
-  margin:10px;
-}
-.pic {
 
-    align-items: center;
-
-}
   .favs {
     display:grid;
     grid-template-columns: auto auto;
@@ -863,74 +869,26 @@ article{
   flex-direction: column;
 }
 
-  .bio1{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-left: 2px;
-    margin-left: 50px;
+.bio1{
+  margin:70px;
+  padding: 2px;
+}
 
+.almedio{
+  table-layout: fixed;
+  align-items: center;
+  text-align: center;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin:5px 20px 5px 20px;
 
-  }
-    .me {
-      display:flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin-left: 2px;
-      padding:2px;
-
-  }
-    .mid {
-    display: flex;
-    align-items:flex-start;
-    flex-direction:column;
-    width: 60%;
-
-  }
-
-  .pic{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  .favs {
-    display:grid;
-    grid-template-columns: auto;
-    grid-row: auto auto;
-    grid-gap: 10px;
-    grid-area: favs;
-    flex direction: row;
-    padding: 5px;
-    padding-top: 10px;
-    margin:5px;
-    margin-top:10px;
-    grid-template-areas:
-    "fav3"
-    "listtext"
-    "fav4"
-    "hobbies"
-
-  }
-  .listtext {
-    display: grid;
-    grid-area: listtext;
-
-  }
-  .hobbies {
-    grid-area: hobbies;
-    display:grid;
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .abft {
-  display: grid;
-  grid-area: footer;
-  }
-
-
-  }
+}
   /* Classes usadas varias veces*/
 
   .medio {
@@ -959,6 +917,8 @@ article{
     width: 98%;
 
   }
+
+
 /*botones*/
 
 a:hover{
@@ -1101,7 +1061,22 @@ a.nav-item{
   a:hover.nav-item{
     color: #575C55;
   }
+  .navbar-expand-lg{
+    z-index: 3;
+    margin:5px;
+  }
 
+  .menu{
+    display: flex;
+    margin: 20px;
+  }
+  .carousel-inner{
+    margin-top:80px;
+  }
+.gallery-image{
+  margin-top: 80px;
+}
+  }
 
 }
 
@@ -1113,7 +1088,6 @@ a.nav-item{
     margin: 0px;
     padding: 0px;
     font-size: 5px;
-    height: 20px;
   }
   .navbar{
     display:flex;
@@ -1152,6 +1126,26 @@ a.nav-item{
 
   }
 
+  .bio1{
+    margin: 70px;
+    padding:2px;
+
+  }
+  .almedio{
+    table-layout: fixed;
+    align-items: center;
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:5px 20px 5px 20px;
+  }
+
   .navbar-collapse{
     display: flex;
     flex-direction: column;
@@ -1175,75 +1169,6 @@ a.nav-item{
     flex-direction: column;
   }
 
-  .bio1{
-
-    margin:50px;
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-  }
-    .me {
-      display:flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      margin-left: 2px;
-      padding:2px;
-
-  }
-
-    .mid {
-
-      display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      width: 60%;
-
-  }
-
-  .pic{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  .favs {
-    display:grid;
-    grid-template-columns: auto;
-    grid-row: auto auto;
-    grid-gap: 10px;
-    grid-area: favs;
-    flex direction: row;
-    padding: 5px;
-    padding-top: 10px;
-    margin:5px;
-    margin-top:10px;
-    grid-template-areas:
-    "fav3"
-    "listtext"
-    "fav4"
-    "hobbies"
-
-  }
-  .listtext {
-    display: grid;
-    grid-area: listtext;
-
-  }
-  .hobbies {
-    grid-area: hobbies;
-    display:grid;
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .abft {
-  display: grid;
-  grid-area: footer;
-  }
-
-
-  }
 
   /* Classes usadas varias veces*/
 
@@ -1260,6 +1185,7 @@ a.nav-item{
     flex-direction: row;
     justify-content: space-evenly;
     margin:5px 10px 5px 10px;
+    height: 100px;
 
 
   }
@@ -1415,5 +1341,19 @@ left: 120%;
       color: #575C55;
     }
 
+.navbar-expand-lg{
+  z-index: 3;
+  margin:5px;
+}
+.menu{
+  display: flex;
+  margin: 20px;
+}
+.carousel-inner{
+  margin-top:80px;
+}
+.gallery-image{
+  margin-top: 80px;
+}
 
 }
