@@ -120,6 +120,7 @@ p.pa{
   margin-left: 10px;
   margin-right: 10px;
 }
+
 ul {
   list-style-type:none;
   background:#FBFFF1;
@@ -129,6 +130,7 @@ ul {
   grid-area: listtext;
 
 }
+
 ol{
   background:#FBFFF1;
   padding: 20px;
@@ -182,12 +184,6 @@ table, th, td {
 
   footer{
     display:flex;
-
-  }
-  .container{
-    width: auto;
-    margin: 0px;
-    padding: 0px;
 
   }
 
@@ -285,7 +281,7 @@ table, th, td {
 
 .effect01 span {
   transition: all 0.2s ease-out;
-  z-index: 2;
+
 }
 .effect01:hover span{
   letter-spacing: 0.13em;
@@ -803,12 +799,7 @@ table, th, td {
     height: 20px;
   }
 
-  .navbar-toggler{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-end;
 
-  }
   .greedindex{
     display: grid;
     grid-template-columns: 1fr;
@@ -838,25 +829,6 @@ table, th, td {
 
   }
 
-  .navbar-collapse{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    size:30px;
-    align-items:flex-end;
-
-  }
-
-  a.nav-item{
-    --fill-color: #575C55;
-    padding: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-
-
-  }
 
 header{
   margin:2px;
@@ -917,7 +889,6 @@ article{
     width: 98%;
 
   }
-
 
 /*botones*/
 
@@ -1013,7 +984,6 @@ box-shadow:0px 0px 0px 4px #96A13A inset;
 
 .effect01 span {
 transition: all 0.2s ease-out;
-z-index: 2;
 }
 .effect01:hover span{
 letter-spacing: 0.13em;
@@ -1061,9 +1031,7 @@ a.nav-item{
   a:hover.nav-item{
     color: #575C55;
   }
-  .navbar-expand-lg{
-    z-index: 1;
-    margin:5px;
+
   }
 
   .menu{
@@ -1292,7 +1260,6 @@ box-shadow:0px 0px 0px 4px #96A13A inset;
 
 .effect01 span {
 transition: all 0.2s ease-out;
-z-index: 2;
 }
 .effect01:hover span{
 letter-spacing: 0.13em;
@@ -1341,9 +1308,6 @@ left: 120%;
       color: #575C55;
     }
 
-.navbar-expand-lg{
-  z-index: 1;
-  margin:5px;
 }
 .menu{
   display: flex;
