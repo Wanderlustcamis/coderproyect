@@ -306,7 +306,7 @@ table, th, td {
   -webkit-transform: rotate(35deg);
           transform: rotate(35deg);
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
-  z-index: 1;
+  z-index: 3;
 }
 .effect01:hover:after {
   background: #96A13A;
@@ -1034,7 +1034,7 @@ top: -50px;
 -webkit-transform: rotate(35deg);
       transform: rotate(35deg);
 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
-z-index: 1;
+z-index: 3;
 }
 .effect01:hover:after {
 background: #96A13A;
@@ -1062,7 +1062,7 @@ a.nav-item{
     color: #575C55;
   }
   .navbar-expand-lg{
-    z-index: 3;
+    z-index: 1;
     margin:5px;
   }
 
@@ -1313,7 +1313,7 @@ top: -50px;
 -webkit-transform: rotate(35deg);
         transform: rotate(35deg);
 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
-z-index: 1;
+z-index:3;
 }
 .effect01:hover:after {
 background: #96A13A;
@@ -1342,7 +1342,7 @@ left: 120%;
     }
 
 .navbar-expand-lg{
-  z-index: 3;
+  z-index: 1;
   margin:5px;
 }
 .menu{
